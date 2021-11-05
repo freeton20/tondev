@@ -331,6 +331,29 @@ You can specify the output files location with the `-o` option:
 tondev sol compile Contract.sol -o path/to/output/file
 ```
 
+#### Ast
+
+This command parses a ton-solidity file and creates an abstract syntax tree (AST) to the output directory.
+
+```shell
+tondev sol ast Contract.sol 
+```
+
+To specify the ast format type, use `-f` or `--format` option:
+
+```shell
+tondev sol ast-json Contract.sol -f <json | compact-json>
+
+```
+
+For specifying the locations of output folder location use the `-o` option:
+
+```shell
+
+tondev sol ast-json Contract.sol -f <json | compact-json> -o path/to/output/file
+
+```
+
 #### Version
 
 This command shows the currently installed Solidity compiler version.

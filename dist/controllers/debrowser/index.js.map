@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/controllers/debrowser/index.ts"],"names":[],"mappings":";;;AACA,+CAAkD;AAClD,2CAA8C;AAC9C,yCAA4C;AAC5C,qDAAwD;AAE3C,QAAA,SAAS,GAAmB;IACrC,IAAI,EAAE,WAAW;IACjB,KAAK,EAAE,wBAAwB;IAC/B,QAAQ,EAAE,CAAC,wBAAc,EAAE,oBAAY,EAAE,kBAAW,EAAE,8BAAiB,CAAC;CAC3E,CAAA"}
